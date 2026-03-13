@@ -6,51 +6,40 @@
 <title>Felices 13 Meses ❤️</title>
 <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
 <!-- POPUP -->
 <div class="popup" id="popup">
   <div class="popup-box">
     <h2>🎉 Felices 13 meses desde que nos conocimos 🎉</h2>
-    <p>Hoy celebramos nuestra historia ❤️</p>
-    <button onclick="iniciarSorpresa()">Abrir sorpresa</button>
+    <button onclick="iniciar()">Abrir sorpresa</button>
   </div>
 </div>
 
-<!-- CIELO ESTRELLADO -->
+<!-- ESTRELLAS -->
 <div class="stars"></div>
 
-<div class="container">
+<!-- TARJETA -->
+<div class="card" id="card">
 
-  <h1>Para mi persona favorita 🐶💖</h1>
+<h1>Nuestra historia ❤️</h1>
 
-  <!-- CONTADOR -->
-  <div id="contador"></div>
+<p id="mensaje"></p>
 
-  <!-- SNOOPY Y CASITA -->
-  <div class="escena">
-    <div class="casa"></div>
-    <div class="snoopy" id="snoopy">🐶</div>
-  </div>
+<div id="contador"></div>
 
-  <!-- MENSAJE -->
-  <p id="mensaje"></p>
+<button id="btnSi" onclick="respuesta()">Siempre contigo 💕</button>
 
-  <!-- PREGUNTA -->
-  <div class="pregunta">
-    <h2>¿Quieres seguir conmigo toda la vida? 💕</h2>
-    <button onclick="respuestaSi()">Sí ❤️</button>
-    <button id="noBtn">No 😢</button>
-  </div>
-
-  <p id="respuestaFinal"></p>
+<p id="final"></p>
 
 </div>
 
 <audio id="musica" loop>
-  <source src="musica.mp3" type="audio/mp3">
+<source src="musica.mp3" type="audio/mp3">
 </audio>
 
 <script src="script.js"></script>
+
 </body>
 </html>
