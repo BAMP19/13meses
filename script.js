@@ -6,7 +6,7 @@ lanzarFuegos()
 
 /* MENSAJE ESCRIBIENDOSE */
 
-const texto = "Hace 13 meses comenzó una historia que nunca imaginé que sería tan especial. Gracias por cada risa, cada abrazo y cada momento. Contigo aprendí que el amor puede ser tranquilo, bonito y real. ❤️"
+const texto = "Hace 13 meses comenzó una historia que nunca imaginé que sería tan especial, que seeria lo mejor de vida, gracias por cada risa, cada abrazo y cada momento juntos, contigo aprendí que el amor es verdadero y que ni la distancia puede afectar esto tan monito y real 💕"
 
 let i=0
 
@@ -22,7 +22,7 @@ escribir()
 
 /* CONTADOR */
 
-const inicio = new Date("2025-02-13") // CAMBIA ESTA FECHA
+const inicio = new Date("2025-02-14") 
 
 function contador(){
 
@@ -33,7 +33,7 @@ let dias = Math.floor(diff/(1000*60*60*24))
 let horas = Math.floor(diff/(1000*60*60)%24)
 
 document.getElementById("contador").innerText =
-"Llevamos juntos "+dias+" días y "+horas+" horas ❤️"
+"Llevamos juntos "+dias+" días y "+horas+" horas 💕"
 
 }
 
@@ -44,9 +44,9 @@ setInterval(contador,1000)
 function respuesta(){
 
 document.getElementById("card").innerHTML = `
-<h1>❤️ Gracias por estos 13 meses ❤️</h1>
+<h1>💕Gracias por estos 13 meses💕</h1>
 <p>Prometo seguir construyendo momentos contigo.</p>
-<p>Te amo infinitamente 💕</p>
+<p>Te amo infinitamente </p>
 `
 
 lanzarFuegos()
@@ -59,7 +59,7 @@ setInterval(()=>{
 
 let heart=document.createElement("div")
 heart.className="heart"
-heart.innerHTML="❤️"
+heart.innerHTML="💕"
 
 heart.style.left=Math.random()*100+"vw"
 heart.style.top=Math.random()*100+"vh"
