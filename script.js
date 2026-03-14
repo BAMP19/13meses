@@ -4,7 +4,7 @@ document.getElementById("musica").play()
 lanzarFuegos()
 }
 
-/* MENSAJE ESCRIBIENDOSE */
+
 
 const texto = "Hace 13 meses comenzó una historia que nunca imaginé que sería tan especial, que seria lo mejor de vida, gracias por cada risa, cada abrazo y cada momento juntos, contigo aprendí que el amor es verdadero y que ni la distancia puede afectar esto tan monito y real 💕"
 
