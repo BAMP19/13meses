@@ -20,7 +20,7 @@ setTimeout(escribir,40)
 
 escribir()
 
-/* CONTADOR */
+
 
 const inicio = new Date("2025-02-14") 
 
